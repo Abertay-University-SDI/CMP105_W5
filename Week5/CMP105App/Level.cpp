@@ -33,15 +33,3 @@ void Level::render()
 
 	endDraw();
 }
-
-// clear back buffer
-void Level::beginDraw()
-{
-	window->clear(sf::Color(100, 149, 237));
-}
-
-// Ends rendering to the back buffer, and swaps buffer to the screen.
-void Level::endDraw()
-{
-	window->display();
-}
